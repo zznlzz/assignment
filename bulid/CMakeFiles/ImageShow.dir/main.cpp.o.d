@@ -1,5 +1,6 @@
-CMakeFiles/ImageShow.dir/main.cpp.o: /home/zyt/ImageShow/main.cpp \
- /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
+CMakeFiles/ImageShow.dir/main.cpp.o: \
+ /home/zyt/learnopencv/ImageShow/main.cpp /usr/include/stdc-predef.h \
+ /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
