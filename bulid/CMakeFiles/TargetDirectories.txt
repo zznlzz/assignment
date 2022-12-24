@@ -1,0 +1,3 @@
+/home/zyt/ImageShow/bulid/CMakeFiles/ImageShow.dir
+/home/zyt/ImageShow/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/ImageShow/bulid/CMakeFiles/rebuild_cache.dir
