@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zyt/learnopencv/ImageShow/main.cpp" "CMakeFiles/ImageShow.dir/main.cpp.o" "gcc" "CMakeFiles/ImageShow.dir/main.cpp.o.d"
+  "/home/zyt/learnopencv/ImageShow2/main.cpp" "CMakeFiles/ImageShow2.dir/main.cpp.o" "gcc" "CMakeFiles/ImageShow2.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

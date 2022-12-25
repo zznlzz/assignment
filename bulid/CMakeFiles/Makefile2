@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyt/learnopencv/ImageShow
+CMAKE_SOURCE_DIR = /home/zyt/learnopencv/ImageShow2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyt/learnopencv/ImageShow/bulid
+CMAKE_BINARY_DIR = /home/zyt/learnopencv/ImageShow2/bulid
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ImageShow.dir/all
+all: CMakeFiles/ImageShow2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ImageShow.dir/clean
+clean: CMakeFiles/ImageShow2.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ImageShow.dir
+# Target rules for target CMakeFiles/ImageShow2.dir
 
 # All Build rule for target.
-CMakeFiles/ImageShow.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow.dir/build.make CMakeFiles/ImageShow.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow.dir/build.make CMakeFiles/ImageShow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyt/learnopencv/ImageShow/bulid/CMakeFiles --progress-num=1,2 "Built target ImageShow"
-.PHONY : CMakeFiles/ImageShow.dir/all
+CMakeFiles/ImageShow2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow2.dir/build.make CMakeFiles/ImageShow2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow2.dir/build.make CMakeFiles/ImageShow2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles --progress-num=1,2 "Built target ImageShow2"
+.PHONY : CMakeFiles/ImageShow2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ImageShow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow/bulid/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ImageShow.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow/bulid/CMakeFiles 0
-.PHONY : CMakeFiles/ImageShow.dir/rule
+CMakeFiles/ImageShow2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ImageShow2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles 0
+.PHONY : CMakeFiles/ImageShow2.dir/rule
 
 # Convenience name for target.
-ImageShow: CMakeFiles/ImageShow.dir/rule
-.PHONY : ImageShow
+ImageShow2: CMakeFiles/ImageShow2.dir/rule
+.PHONY : ImageShow2
 
 # clean rule for target.
-CMakeFiles/ImageShow.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow.dir/build.make CMakeFiles/ImageShow.dir/clean
-.PHONY : CMakeFiles/ImageShow.dir/clean
+CMakeFiles/ImageShow2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow2.dir/build.make CMakeFiles/ImageShow2.dir/clean
+.PHONY : CMakeFiles/ImageShow2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

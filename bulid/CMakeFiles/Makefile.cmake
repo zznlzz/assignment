@@ -124,5 +124,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ImageShow.dir/DependInfo.cmake"
+  "CMakeFiles/ImageShow2.dir/DependInfo.cmake"
   )

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyt/learnopencv/ImageShow
+CMAKE_SOURCE_DIR = /home/zyt/learnopencv/ImageShow2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyt/learnopencv/ImageShow/bulid
+CMAKE_BINARY_DIR = /home/zyt/learnopencv/ImageShow2/bulid
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow/bulid/CMakeFiles /home/zyt/learnopencv/ImageShow/bulid//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles /home/zyt/learnopencv/ImageShow2/bulid//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow/bulid/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ImageShow
+# Target rules for targets named ImageShow2
 
 # Build rule for target.
-ImageShow: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImageShow
-.PHONY : ImageShow
+ImageShow2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImageShow2
+.PHONY : ImageShow2
 
 # fast build rule for target.
-ImageShow/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow.dir/build.make CMakeFiles/ImageShow.dir/build
-.PHONY : ImageShow/fast
+ImageShow2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow2.dir/build.make CMakeFiles/ImageShow2.dir/build
+.PHONY : ImageShow2/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow.dir/build.make CMakeFiles/ImageShow.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow2.dir/build.make CMakeFiles/ImageShow2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow.dir/build.make CMakeFiles/ImageShow.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow2.dir/build.make CMakeFiles/ImageShow2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow.dir/build.make CMakeFiles/ImageShow.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageShow2.dir/build.make CMakeFiles/ImageShow2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ImageShow"
+	@echo "... ImageShow2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
