@@ -1,0 +1,3 @@
+/home/zyt/learnopencv/canny/bulid/CMakeFiles/canny.dir
+/home/zyt/learnopencv/canny/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/learnopencv/canny/bulid/CMakeFiles/rebuild_cache.dir

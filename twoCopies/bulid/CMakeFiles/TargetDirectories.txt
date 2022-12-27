@@ -1,0 +1,3 @@
+/home/zyt/learnopencv/twoCopies/bulid/CMakeFiles/twoCopies.dir
+/home/zyt/learnopencv/twoCopies/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/learnopencv/twoCopies/bulid/CMakeFiles/rebuild_cache.dir

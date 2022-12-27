@@ -1,0 +1,3 @@
+/home/zyt/learnopencv/averageRGB/bulid/CMakeFiles/averageRGB.dir
+/home/zyt/learnopencv/averageRGB/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/learnopencv/averageRGB/bulid/CMakeFiles/rebuild_cache.dir

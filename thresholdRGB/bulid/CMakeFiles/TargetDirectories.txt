@@ -1,0 +1,3 @@
+/home/zyt/learnopencv/thresholdRGB/bulid/CMakeFiles/thresholdRGB.dir
+/home/zyt/learnopencv/thresholdRGB/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/learnopencv/thresholdRGB/bulid/CMakeFiles/rebuild_cache.dir
