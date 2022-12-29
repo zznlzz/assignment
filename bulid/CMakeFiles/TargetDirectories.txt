@@ -1,3 +1,0 @@
-/home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles/ImageShow2.dir
-/home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles/edit_cache.dir
-/home/zyt/learnopencv/ImageShow2/bulid/CMakeFiles/rebuild_cache.dir
