@@ -1,0 +1,3 @@
+/home/zyt/LearnOpenCV/countCoins/bulid/CMakeFiles/countCoins.dir
+/home/zyt/LearnOpenCV/countCoins/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/LearnOpenCV/countCoins/bulid/CMakeFiles/rebuild_cache.dir
