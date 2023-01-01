@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyt/corrode
+CMAKE_SOURCE_DIR = /home/zyt/LearnOpenCV/element
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyt/corrode/bulid
+CMAKE_BINARY_DIR = /home/zyt/LearnOpenCV/element/bulid
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/corrode/bulid/CMakeFiles /home/zyt/corrode/bulid//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/LearnOpenCV/element/bulid/CMakeFiles /home/zyt/LearnOpenCV/element/bulid//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/corrode/bulid/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/LearnOpenCV/element/bulid/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named corrode
+# Target rules for targets named element
 
 # Build rule for target.
-corrode: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 corrode
-.PHONY : corrode
+element: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 element
+.PHONY : element
 
 # fast build rule for target.
-corrode/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corrode.dir/build.make CMakeFiles/corrode.dir/build
-.PHONY : corrode/fast
+element/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/element.dir/build.make CMakeFiles/element.dir/build
+.PHONY : element/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corrode.dir/build.make CMakeFiles/corrode.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/element.dir/build.make CMakeFiles/element.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corrode.dir/build.make CMakeFiles/corrode.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/element.dir/build.make CMakeFiles/element.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corrode.dir/build.make CMakeFiles/corrode.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/element.dir/build.make CMakeFiles/element.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... corrode"
+	@echo "... element"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

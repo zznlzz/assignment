@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyt/corrode
+CMAKE_SOURCE_DIR = /home/zyt/LearnOpenCV/element
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyt/corrode/bulid
+CMAKE_BINARY_DIR = /home/zyt/LearnOpenCV/element/bulid
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/corrode.dir/all
+all: CMakeFiles/element.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/corrode.dir/clean
+clean: CMakeFiles/element.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/corrode.dir
+# Target rules for target CMakeFiles/element.dir
 
 # All Build rule for target.
-CMakeFiles/corrode.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corrode.dir/build.make CMakeFiles/corrode.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corrode.dir/build.make CMakeFiles/corrode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyt/corrode/bulid/CMakeFiles --progress-num=1,2 "Built target corrode"
-.PHONY : CMakeFiles/corrode.dir/all
+CMakeFiles/element.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/element.dir/build.make CMakeFiles/element.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/element.dir/build.make CMakeFiles/element.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zyt/LearnOpenCV/element/bulid/CMakeFiles --progress-num=1,2 "Built target element"
+.PHONY : CMakeFiles/element.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/corrode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/corrode/bulid/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/corrode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/corrode/bulid/CMakeFiles 0
-.PHONY : CMakeFiles/corrode.dir/rule
+CMakeFiles/element.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/LearnOpenCV/element/bulid/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/element.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zyt/LearnOpenCV/element/bulid/CMakeFiles 0
+.PHONY : CMakeFiles/element.dir/rule
 
 # Convenience name for target.
-corrode: CMakeFiles/corrode.dir/rule
-.PHONY : corrode
+element: CMakeFiles/element.dir/rule
+.PHONY : element
 
 # clean rule for target.
-CMakeFiles/corrode.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corrode.dir/build.make CMakeFiles/corrode.dir/clean
-.PHONY : CMakeFiles/corrode.dir/clean
+CMakeFiles/element.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/element.dir/build.make CMakeFiles/element.dir/clean
+.PHONY : CMakeFiles/element.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

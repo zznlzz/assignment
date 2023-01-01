@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zyt/corrode/main.cpp" "CMakeFiles/corrode.dir/main.cpp.o" "gcc" "CMakeFiles/corrode.dir/main.cpp.o.d"
+  "/home/zyt/LearnOpenCV/element/main.cpp" "CMakeFiles/element.dir/main.cpp.o" "gcc" "CMakeFiles/element.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,0 +1,3 @@
+/home/zyt/LearnOpenCV/element/bulid/CMakeFiles/element.dir
+/home/zyt/LearnOpenCV/element/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/LearnOpenCV/element/bulid/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,6 @@
-CMakeFiles/corrode.dir/main.cpp.o: /home/zyt/corrode/main.cpp \
- /usr/include/stdc-predef.h \
- /usr/local/include/opencv4/opencv2/highgui/highgui.hpp \
- /usr/local/include/opencv4/opencv2/highgui.hpp \
+CMakeFiles/element.dir/main.cpp.o: /home/zyt/LearnOpenCV/element/main.cpp \
+ /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
  /usr/local/include/opencv4/opencv2/core/version.hpp \
@@ -81,7 +80,6 @@ CMakeFiles/corrode.dir/main.cpp.o: /home/zyt/corrode/main.cpp \
  /usr/include/c++/11/bits/predefined_ops.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/local/include/opencv4/opencv2/core/base.hpp \
- /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -233,12 +231,6 @@ CMakeFiles/corrode.dir/main.cpp.o: /home/zyt/corrode/main.cpp \
  /usr/local/include/opencv4/opencv2/core/optim.hpp \
  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
- /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
- /usr/local/include/opencv4/opencv2/videoio.hpp \
- /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
- /usr/local/include/opencv4/opencv2/imgproc.hpp \
- /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
- /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/calib3d.hpp \
  /usr/local/include/opencv4/opencv2/features2d.hpp \
  /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -301,6 +293,11 @@ CMakeFiles/corrode.dir/main.cpp.o: /home/zyt/corrode/main.cpp \
  /usr/local/include/opencv4/opencv2/flann/index_testing.h \
  /usr/local/include/opencv4/opencv2/flann/timer.h \
  /usr/local/include/opencv4/opencv2/flann/sampling.h \
+ /usr/local/include/opencv4/opencv2/highgui.hpp \
+ /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
+ /usr/local/include/opencv4/opencv2/videoio.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
  /usr/local/include/opencv4/opencv2/ml.hpp \
  /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
  /usr/local/include/opencv4/opencv2/objdetect.hpp \

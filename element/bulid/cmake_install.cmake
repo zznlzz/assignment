@@ -1,4 +1,4 @@
-# Install script for directory: /home/zyt/corrode
+# Install script for directory: /home/zyt/LearnOpenCV/element
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zyt/corrode/bulid/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zyt/LearnOpenCV/element/bulid/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

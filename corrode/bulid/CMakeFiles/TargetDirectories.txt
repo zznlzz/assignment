@@ -1,3 +1,0 @@
-/home/zyt/corrode/bulid/CMakeFiles/corrode.dir
-/home/zyt/corrode/bulid/CMakeFiles/edit_cache.dir
-/home/zyt/corrode/bulid/CMakeFiles/rebuild_cache.dir
