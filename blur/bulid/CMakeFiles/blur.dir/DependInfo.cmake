@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zyt/blur/main.cpp" "CMakeFiles/blur.dir/main.cpp.o" "gcc" "CMakeFiles/blur.dir/main.cpp.o.d"
+  "/home/zyt/LearnOpenCV/blur/main.cpp" "CMakeFiles/blur.dir/main.cpp.o" "gcc" "CMakeFiles/blur.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
