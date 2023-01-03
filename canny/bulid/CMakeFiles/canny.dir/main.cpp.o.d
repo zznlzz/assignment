@@ -1,4 +1,4 @@
-CMakeFiles/canny.dir/main.cpp.o: /home/zyt/learnopencv/canny/main.cpp \
+CMakeFiles/canny.dir/main.cpp.o: /home/zyt/LearnOpenCV/canny/main.cpp \
  /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
@@ -329,5 +329,4 @@ CMakeFiles/canny.dir/main.cpp.o: /home/zyt/learnopencv/canny/main.cpp \
  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
- /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp
+ /usr/local/include/opencv4/opencv2/video/background_segm.hpp

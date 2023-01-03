@@ -391,8 +391,7 @@ CMakeFiles/canny.dir/main.cpp.o: ../main.cpp \
   /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp
+  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
 
 
 /usr/local/include/opencv4/opencv2/video/background_segm.hpp:
@@ -946,8 +945,6 @@ CMakeFiles/canny.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
-
-/usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp:
 
 /usr/include/c++/11/bits/localefwd.h:
 
