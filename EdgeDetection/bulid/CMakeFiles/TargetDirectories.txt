@@ -1,0 +1,3 @@
+/home/zyt/LearnOpenCV/EdgeDetection/bulid/CMakeFiles/EdgeDetection.dir
+/home/zyt/LearnOpenCV/EdgeDetection/bulid/CMakeFiles/edit_cache.dir
+/home/zyt/LearnOpenCV/EdgeDetection/bulid/CMakeFiles/rebuild_cache.dir
