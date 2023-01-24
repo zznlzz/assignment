@@ -1,0 +1,56 @@
+<<<<<<< HEAD
+weights: /home/zyt/deep learning/learnPytorch/yolov7/yolov7.pt
+cfg: ''
+data: data/soda.yaml
+hyp: data/hyp.scratch.p5.yaml
+epochs: 300
+batch_size: 2
+img_size:
+- 418
+- 418
+=======
+weights: /content/drive/MyDrive/YOLO/yolov7/yolov7.pt
+cfg: ''
+data: data/soda.yaml
+hyp: data/hyp.scratch.p5.yaml
+epochs: 500
+batch_size: 2
+img_size:
+- 300
+- 300
+>>>>>>> b29facb (yolov7自定义数据集汽 水识别+cifar10新增三种经典卷积)
+rect: false
+resume: false
+nosave: false
+notest: false
+noautoanchor: false
+evolve: false
+bucket: ''
+cache_images: false
+image_weights: false
+device: ''
+multi_scale: false
+single_cls: false
+adam: false
+sync_bn: false
+local_rank: -1
+workers: 8
+project: runs/train
+entity: null
+name: exp
+exist_ok: false
+quad: false
+linear_lr: false
+label_smoothing: 0.0
+upload_dataset: false
+bbox_interval: -1
+save_period: -1
+artifact_alias: latest
+world_size: 1
+global_rank: -1
+<<<<<<< HEAD
+save_dir: runs/train/exp
+=======
+save_dir: runs/train/exp4
+>>>>>>> b29facb (yolov7自定义数据集汽 水识别+cifar10新增三种经典卷积)
+total_batch_size: 2

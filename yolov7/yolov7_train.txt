@@ -1,0 +1,2 @@
+/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000029.jpg
+/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000049.jpg
