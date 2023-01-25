@@ -636,10 +636,7 @@ class ComputeLossOTA:
         return loss * bs, torch.cat((lbox, lobj, lcls, loss)).detach()
 
     def build_targets(self, p, targets, imgs):
-<<<<<<< HEAD
-=======
         device = targets.device
->>>>>>> b29facb (yolov7自定义数据集汽 水识别+cifar10新增三种经典卷积)
         
         #indices, anch = self.find_positive(p, targets)
         indices, anch = self.find_3_positive(p, targets)
@@ -686,13 +683,8 @@ class ComputeLossOTA:
                 all_gj.append(gj)
                 all_gi.append(gi)
                 all_anch.append(anch[i][idx])
-<<<<<<< HEAD
-                from_which_layer.append(torch.ones(size=(len(b),)) * i)
-                
-=======
                 #from_which_layer.append(torch.ones(size=(len(b),)) * i)
                 from_which_layer.append((torch.ones(size=(len(b),)) * i).to(torch.device(device)))
->>>>>>> b29facb (yolov7自定义数据集汽 水识别+cifar10新增三种经典卷积)
                 fg_pred = pi[b, a, gj, gi]                
                 p_obj.append(fg_pred[:, 4:5])
                 p_cls.append(fg_pred[:, 5:])
@@ -763,16 +755,10 @@ class ComputeLossOTA:
                 matching_matrix[:, anchor_matching_gt > 1] *= 0.0
                 matching_matrix[cost_argmin, anchor_matching_gt > 1] = 1.0
             fg_mask_inboxes = matching_matrix.sum(0) > 0.0
-<<<<<<< HEAD
-            matched_gt_inds = matching_matrix[:, fg_mask_inboxes].argmax(0)
-        
-            from_which_layer = from_which_layer[fg_mask_inboxes]
-=======
             fg_mask_inboxes = fg_mask_inboxes.to(torch.device(device))#修改过 add
             matched_gt_inds = matching_matrix[:, fg_mask_inboxes].argmax(0)
         
             from_which_layer = from_which_layer[fg_mask_inboxes].to(device)
->>>>>>> b29facb (yolov7自定义数据集汽 水识别+cifar10新增三种经典卷积)
             all_b = all_b[fg_mask_inboxes]
             all_a = all_a[fg_mask_inboxes]
             all_gj = all_gj[fg_mask_inboxes]
