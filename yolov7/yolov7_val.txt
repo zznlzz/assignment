@@ -1,8 +1,0 @@
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000075.jpg
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000037.jpg
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000011.jpg
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000108.jpg
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000028.jpg
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000079.jpg
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000018.jpg
-/home/zyt/deep learning/learnPytorch/yolov7/VOCdevkit/VOC2007/JPEGImages/000292.jpg
